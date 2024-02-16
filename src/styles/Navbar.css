@@ -1,0 +1,41 @@
+body{
+    font-family: "Poppins", sans-serif;
+  
+}
+.header{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+    padding: 2% 2rem;
+    background-color: #ffffff; 
+    justify-content: space-between;
+    color: black;
+
+    font-weight: 600;
+}
+.header span{
+    margin-right: 1rem;
+}
+.header div{
+    margin-right: 1rem;
+}
+.header input{
+    min-width: 430px;
+    padding: 0.8rem;
+    border-radius: 20px;
+    border: 0.5px solid black;
+    outline: none;
+    font-weight: 600;
+}
+
+.header button{
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 0.5rem 2rem;
+    
+    font-weight: 800;
+    font-size: 95%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
